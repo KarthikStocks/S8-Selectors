@@ -1,0 +1,56 @@
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover; /* Cover the space (Ensure images cover their area) */
+  border: 3px solid gold;
+  opacity: 0.9;
+  transition: transform 0.3s; /* Smooth transition */
+}
+
+.grid {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  grid-template-columns: repeat(5, 1fr); /* Five equal columns */
+  width: 100%; /* Full width of the grid */
+  display: grid; /* Use grid for layout */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  justify-content: space-between; /* Distribute space evenly */
+}
+
+h1 {
+  background-color: #ffe9ec;
+  color: #4a4a4a;
+  font-size: 40px;
+  border: 2px solid #ff6f61;
+  border-radius: 15px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.global {
+  border-radius: 15px;
+  background-color: aqua;
+}
+
+.india {
+  background-color: orangered;
+  border: 3px solid greenyellow;
+}
+
+#warren {
+  border-radius: 50%;
+  box-shadow: 0 6px 15px rgba(34, 139, 34, 0.2);
+  filter: grayscale(100%); /* Grayscale image */
+}
+
+.order {
+  background-color: orchid;
+  border-radius: 20px;
+}
